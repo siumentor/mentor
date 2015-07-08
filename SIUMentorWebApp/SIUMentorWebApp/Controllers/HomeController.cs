@@ -15,7 +15,7 @@ namespace SIUMentorWebApp.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "This is your our application description page.";
 
             return View();
         }
