@@ -109,4 +109,23 @@ namespace SIUMentorWebApp.Models
         [Display(Name = "Email")]
         public string Email { get; set; }
     }
+
+    public class BasicInformation
+    {
+        public string JobTitle { get; set; }
+        public string CompanyName { get; set; }
+        public string Degree1 { get; set; }
+        public string Degree2 { get; set; }
+        public string Degree3 { get; set; }
+        public string FieldOfInterest { get; set; }
+
+    }
+
+
+
+
+
+
+
+
 }
